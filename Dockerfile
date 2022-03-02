@@ -1,6 +1,6 @@
 FROM node
 ENV NODE_ENV=production
-WORKDIR /client
+WORKDIR /front
 
 COPY . .
 RUN npm install --production
