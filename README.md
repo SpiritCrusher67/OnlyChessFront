@@ -5,4 +5,4 @@
 ## Новости
 
 Стартовая страница на которой отображаются новости, а так же доступна форма авторизации
-![image](https://drive.google.com/uc?export=view&id=1j5cwDrWGRrQ2jm2jKnY99ZVNjj1Lib9n)
+![image](https://github.com/SpiritCrusher67/OnlyChessFront/blob/media/media/newspage.png)
