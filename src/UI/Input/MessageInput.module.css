@@ -1,0 +1,27 @@
+.MsgInput {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(57, 63, 84, 0.8);
+}
+.MsgInput input{
+    flex-grow: 1;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+}
+.MsgInput button {
+    color: #00B9FF;
+    font-size: 1.8rem;
+    background: transparent;
+    border: none;
+}
+.MsgInput button :hover {
+    color: #73D8FF;
+}

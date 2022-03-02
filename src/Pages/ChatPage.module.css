@@ -1,0 +1,13 @@
+.ChatContainer {
+    margin-left: 500px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ChatContainer ul{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}

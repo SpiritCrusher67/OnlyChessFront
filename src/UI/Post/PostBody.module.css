@@ -1,0 +1,35 @@
+.PostBody {
+    margin: auto;
+    width: 80%;
+}
+.PostTitle h1 a {
+    color: #333;
+    font-weight: 100;
+}
+.PostSummary p {
+    color: #333;
+}
+.PostTags ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+.PostTags li + li {
+    margin-left: .5rem;
+}
+.PostTags a {
+    border: 1px solid #333;
+    border-radius: 3px;
+    color: #333;
+    font-size: .75rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding: 0 .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 5rem;
+}

@@ -1,0 +1,30 @@
+.ProfileCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProfileCard button{
+    margin-top: 10px;
+}
+.ProfileName {
+    margin: 15px 0 0 0;
+    font-size: 1.5em;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 1.2em;
+}
+
+.OnlineIndicator{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.RedIndicator{
+    color: red;
+}
+.GreenIndicator{
+    color: green;
+}

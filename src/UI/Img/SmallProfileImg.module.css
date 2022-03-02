@@ -1,0 +1,29 @@
+.ImgContainer{
+    position: relative;
+    text-align: center;
+    align-self: center;
+}
+.SmallImg{
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    height: 32px;
+    width: 32px;
+}
+.OnlineIndicator{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+}
+.GreenIndicator{
+    background: green;
+}
+.GrayIndicator{
+    background: gray;
+}
+.HideIndicator{
+    background: transparent;
+}

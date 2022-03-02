@@ -1,0 +1,27 @@
+.PostAuthor,
+.PostAuthorNoCover {
+    padding-top: .125rem;
+    justify-items: self-start;
+    display: flex;
+    flex-direction: row;
+}
+.PostAuthorNoCover div{
+    place-self: center;
+}
+
+.PostAuthor h3 {
+    width: fit-content;
+    align-self: center;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 100;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+.PostAuthorNoCover h3 {
+    align-self: center;
+    margin-left: 5px;
+    color: #333;
+    font-weight: 100;
+}

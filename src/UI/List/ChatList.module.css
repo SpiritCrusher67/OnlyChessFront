@@ -1,0 +1,30 @@
+.ChatList ul{
+    display: flex;
+    align-items: start;
+    list-style-type: none;
+    padding-inline-start: 100px;
+    margin: 0;
+    width: 100%;
+}
+
+.ChatList li{
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0;
+}
+
+.ChatList li :hover{
+    background-color: #686a72;
+}
+
+.ChatList a{
+    position: relative;
+    display: block;
+    padding: 4px;
+    font-family: sans-serif;
+    color: #ecf0f1;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}

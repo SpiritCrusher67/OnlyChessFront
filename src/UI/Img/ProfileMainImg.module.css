@@ -1,0 +1,8 @@
+.MainImg {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 5px solid #272133;
+    margin-top: 20px;
+    box-shadow: 0 10px 50px #00B9FF;
+}

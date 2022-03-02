@@ -1,0 +1,23 @@
+.PostsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 500px;
+    width: 100%;
+    align-items: center;
+}
+.PageContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pageControl{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #04638c;
+    font-weight: bold;
+}
+.pgControl{
+    cursor: pointer;
+}

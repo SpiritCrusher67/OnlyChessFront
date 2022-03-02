@@ -1,0 +1,15 @@
+.console{
+    height: 25vh;
+    margin: 10px;
+    background: rgba(1,1,1,0.5);
+    overflow-y: auto;
+}
+.console p{
+    margin: 5px 10px;
+    color: #3098BF;
+}
+.console span{
+    margin-right: 5px;
+    font-weight: bold;
+    color: #FF8500;
+}

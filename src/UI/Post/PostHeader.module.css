@@ -1,0 +1,21 @@
+.PostHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.AuthorContainer{
+    margin-left: 50px;
+    position: absolute;
+}
+
+.AuthorContainerNoCover{
+    margin-left: 50px;
+}
+
+.PostCover {
+    display: flex;
+    min-width: 100%;
+    height: fit-content;
+    border-radius: 5px 5px 0 0;
+}

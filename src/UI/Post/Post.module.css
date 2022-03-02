@@ -1,0 +1,19 @@
+.PostContainer {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .2) 0 4px 2px -2px;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 720px;
+    height: fit-content;
+}
+.PostContainer a {
+    color: #00B9FF;
+    text-decoration: none;
+    transition: .25s ease;
+}
+.PostContainer a:hover {
+    border-color: #00B9FF;
+    color: #00B9FF;
+}

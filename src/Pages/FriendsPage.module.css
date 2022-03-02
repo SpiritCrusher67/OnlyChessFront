@@ -1,0 +1,24 @@
+.searchBlock{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.searchBlock button{
+    align-self: center;
+    width: 80%;
+}
+.searchBlock input{
+    margin: 10px 0px;
+    align-self: center;
+}
+
+.ListContainer{
+    margin: 10px 500px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+

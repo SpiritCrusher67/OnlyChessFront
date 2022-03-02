@@ -1,0 +1,49 @@
+.PostFooter {
+    border-top: 1px solid #333;
+    margin: 0 auto;
+    padding-bottom: .125rem;
+    width: 80%;
+}
+.PostFooter ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+.PostFooter li:first-child {
+    margin-right: auto;
+}
+.PostFooter li + li {
+    margin-left: .5rem;
+}
+.PostFooter li {
+    color: #333;
+    font-size: .75rem;
+    height: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+}
+
+.Comments {
+    margin-right: 1rem;
+}
+.PublishedDate {
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 0 .5rem;
+}
+.PostFooter button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin: 5px;
+    color: #00B9FF;
+    display: flex;
+}
+.PostFooter span{
+    margin-left: 2px;
+}

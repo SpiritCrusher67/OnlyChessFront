@@ -1,0 +1,7 @@
+.fieldLine{
+    display: flex;
+    flex-direction: row;
+}
+.board{
+    border: inset;
+}

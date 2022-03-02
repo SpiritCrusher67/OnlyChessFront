@@ -1,0 +1,63 @@
+.msgFr{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.msgMy{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #00B9FF;
+    align-self: flex-end;
+}
+
+.msgWrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.msg{
+    margin: 10px 0px;
+    align-items: center;
+    width: fit-content;
+    max-width: 70%;
+    max-height: none;
+    height: initial;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+.msg img{
+    align-self: center;
+}
+
+.msgText{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: 10px 0px;
+}
+.msgText button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.inviteAccept{
+    color: green;
+}
+.inviteDenied{
+    color: red;
+}
+
+.iconDiv{
+    display: flex;
+    color: green;
+    align-self: center;
+}
+
+.msgTime{
+    margin-left: 10px;
+    color: #686a72;
+}

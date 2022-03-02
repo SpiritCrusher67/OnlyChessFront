@@ -1,0 +1,18 @@
+.fieldW{
+    height: 60px;
+    width: 60px;
+    border: groove;
+    background: whitesmoke;
+}
+.fieldB{
+    height: 60px;
+    width: 60px;
+    border: groove;
+    background: lightslategray;
+}
+.selected{
+    border-color: yellow;
+}
+.notSelected{
+    border-color: black;
+}

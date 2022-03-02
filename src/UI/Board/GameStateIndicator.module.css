@@ -1,0 +1,30 @@
+.indicatorContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.indicatorContainer p{
+    color: white;
+}
+.indicator{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.indicatorRed{
+    background-color: darkred;
+    box-shadow: 0 5px 25px red;
+}
+.indicatorGreen{
+    background-color: darkgreen;
+    box-shadow: 0 5px 25px green;
+}
+.indicatorGray{
+    background-color: darkorange;
+    box-shadow: 0 5px 25px orange;
+
+}

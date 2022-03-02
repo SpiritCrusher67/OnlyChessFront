@@ -1,0 +1,32 @@
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 160px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 350px;
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.FormContainer h3{
+    margin: 0px;
+    align-self: center;
+    color: #95a5a6;
+}
+.FormContainer form{
+    width: 500px;
+    background-color: #222831;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.FormContainer input{
+    align-self: center;
+    margin: 10px 0px;
+}
+.FormContainer button{
+    width: 50%;
+    justify-self: center;
+}

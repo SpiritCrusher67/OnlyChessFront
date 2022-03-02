@@ -1,0 +1,69 @@
+.DrawBorder {
+    box-shadow: inset 0 0 0 4px #0078A6;
+    color: #00B9FF;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+
+.DrawBorder::before,
+.DrawBorder::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0rem;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.DrawBorder::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.DrawBorder::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.DrawBorder:hover {
+    color: #FF8500;
+}
+
+.DrawBorder:hover::before,
+.DrawBorder:hover::after {
+    border-color: #40CAFF;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.DrawBorder:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.DrawBorder:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+.Btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 500 1.2rem sans-serif;
+    padding: 0.55em;
+    letter-spacing: 0.05rem;
+    margin: 0 5px;
+    width: 90%;
+}
+
+.Btn:focus {
+    outline: 2px dotted #55d7dc;
+}

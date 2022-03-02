@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+}
+.root{
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
